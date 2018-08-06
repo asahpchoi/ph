@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { MockService } from '../ph/mock.service';
+ 
 
 @Component({
   selector: '[appContent]',
@@ -9,12 +9,12 @@ import { MockService } from '../ph/mock.service';
 export class ContentComponent implements OnInit {
   msg;
   
-  constructor(private svc : MockService) { 
+  constructor( ) { 
     
   }
 
   ngOnInit() {
-    this.msg = this.svc.getMsg();
+ 
   }
 
 }
