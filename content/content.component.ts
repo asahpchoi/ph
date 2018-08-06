@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { MockService } from '../ph/mock.service';
 
 @Component({
-  selector: 'app-content',
+  selector: '[appContent]',
   templateUrl: './content.component.html',
   styleUrls: ['./content.component.css']
 })
